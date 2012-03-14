@@ -1,0 +1,22 @@
+Thank you for downloading this project.
+
+Did you ever have a problem when you should display a double with variable number of decimals?
+For example: a user wants to see only X decimals in a number(defined by user in the settings).
+Instead of doing all that useless work you can just use VariableNumberOfDecimals!
+
+
+
+How does it work?
+
+Simple import it in your project and then just call a method:
+
+[VariableNumberOfDecimals getFormatForNumber:<#(double)#> withNumberOfDecimals:<#(int)#>];
+
+Result will be an NSString that is a format to use to present a number.
+
+After that you can simple log it or put in a UILabel/UITextField/whatever:
+NSLog(format, yourDoubleNumber);
+
+Where format is the result of the method and yourDoubleNumber is your double number.
+
+Hope you will like it.

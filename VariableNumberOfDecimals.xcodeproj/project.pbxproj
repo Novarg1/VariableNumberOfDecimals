@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A581DA1510B34800C25FEC /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 84A581D91510B34800C25FEC /* Readme */; };
 		84B47B0F151091A40085C355 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B47B0E151091A40085C355 /* UIKit.framework */; };
 		84B47B11151091A40085C355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B47B10151091A40085C355 /* Foundation.framework */; };
 		84B47B13151091A40085C355 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B47B12151091A40085C355 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84A581D91510B34800C25FEC /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 		84B47B0A151091A40085C355 /* VariableNumberOfDecimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariableNumberOfDecimals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B47B0E151091A40085C355 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84B47B10151091A40085C355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +89,7 @@
 				84B47B23151091A40085C355 /* ViewController.xib */,
 				84B47B15151091A40085C355 /* Supporting Files */,
 				84B47B2E151091D30085C355 /* Classes */,
+				84A581D91510B34800C25FEC /* Readme */,
 			);
 			path = VariableNumberOfDecimals;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				84B47B19151091A40085C355 /* InfoPlist.strings in Resources */,
 				84B47B25151091A40085C355 /* ViewController.xib in Resources */,
+				84A581DA1510B34800C25FEC /* Readme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				84B47B2A151091A40085C355 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
