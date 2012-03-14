@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VariableNumberOfDecimals.h"
 
 @implementation ViewController
 
@@ -21,6 +22,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    double exampleNumber = 1234.123456789012345;
+    int decimals = 13;
+    
+    NSString *format = [VariableNumberOfDecimals getFormatForNumber:exampleNumber withNumberOfDecimals:decimals];
+    
+    NSLog(format, exampleNumber);
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -15,6 +15,7 @@
 		84B47B1F151091A40085C355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B47B1E151091A40085C355 /* AppDelegate.m */; };
 		84B47B22151091A40085C355 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B47B21151091A40085C355 /* ViewController.m */; };
 		84B47B25151091A40085C355 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B47B23151091A40085C355 /* ViewController.xib */; };
+		84B47B2D151091CA0085C355 /* VariableNumberOfDecimals.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B47B2C151091CA0085C355 /* VariableNumberOfDecimals.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		84B47B0E151091A40085C355 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84B47B10151091A40085C355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84B47B12151091A40085C355 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		84B47B16151091A40085C355 /* VariableNumberOfDecimals-Info.plist */ = {isa = PBXFileReference; path = "VariableNumberOfDecimals-Info.plist"; sourceTree = "<group>"; };
+		84B47B16151091A40085C355 /* VariableNumberOfDecimals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VariableNumberOfDecimals-Info.plist"; sourceTree = "<group>"; };
 		84B47B18151091A40085C355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84B47B1A151091A40085C355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84B47B1C151091A40085C355 /* VariableNumberOfDecimals-Prefix.pch */ = {isa = PBXFileReference; path = "VariableNumberOfDecimals-Prefix.pch"; sourceTree = "<group>"; };
-		84B47B1D151091A40085C355 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B47B1C151091A40085C355 /* VariableNumberOfDecimals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VariableNumberOfDecimals-Prefix.pch"; sourceTree = "<group>"; };
+		84B47B1D151091A40085C355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84B47B1E151091A40085C355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84B47B20151091A40085C355 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		84B47B20151091A40085C355 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84B47B21151091A40085C355 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84B47B24151091A40085C355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		84B47B2B151091CA0085C355 /* VariableNumberOfDecimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariableNumberOfDecimals.h; sourceTree = "<group>"; };
+		84B47B2C151091CA0085C355 /* VariableNumberOfDecimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariableNumberOfDecimals.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				84B47B21151091A40085C355 /* ViewController.m */,
 				84B47B23151091A40085C355 /* ViewController.xib */,
 				84B47B15151091A40085C355 /* Supporting Files */,
+				84B47B2E151091D30085C355 /* Classes */,
 			);
 			path = VariableNumberOfDecimals;
 			sourceTree = "<group>";
@@ -96,6 +100,15 @@
 				84B47B1C151091A40085C355 /* VariableNumberOfDecimals-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B47B2E151091D30085C355 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84B47B2B151091CA0085C355 /* VariableNumberOfDecimals.h */,
+				84B47B2C151091CA0085C355 /* VariableNumberOfDecimals.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +176,7 @@
 				84B47B1B151091A40085C355 /* main.m in Sources */,
 				84B47B1F151091A40085C355 /* AppDelegate.m in Sources */,
 				84B47B22151091A40085C355 /* ViewController.m in Sources */,
+				84B47B2D151091CA0085C355 /* VariableNumberOfDecimals.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
